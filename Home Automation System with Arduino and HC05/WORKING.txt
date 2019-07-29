@@ -1,0 +1,9 @@
+WORKING:
+
+Connect the modules as shown in the diagram or as given in the connections text file.
+
+Install the apk file given on any android device and connect to the bluetooth module first from android settings.
+
+Open the app and turn on/off 1st or 2nd device according to your need.
+
+**If the Tx led on Arduino is not lighting up while pressing on/off button in the app then change the wires connecting Rx and Tx pins of HC-05 to Arduino.

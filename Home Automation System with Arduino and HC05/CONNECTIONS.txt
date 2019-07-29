@@ -1,0 +1,28 @@
+HOME AUTOMATION SYSTEM USING ARDUINO AND BLUETOOTH MODULE (HC-05 or HC-06)
+
+CONNECTIONS :
+
+1. Arduino Uno to Relay and Breadboard
+
+	Arduino 5V --> Breadboard Power Line
+	Arduino GND --> Breadboard GND Line
+	Relay GND --> Breadboard GND
+	Relay VCC --> Breadboard Power
+	Relay IN1 --> Arduino Digital Pin 2
+	Relay IN2 --> Arduino Digital Pin 3
+
+2. Bluetooth Module HC-05 to Arduino 
+
+	VCC --> Breadboard Power Line
+	GND --> Breadboard GND Line
+	RX  --> TX of Arduino 
+	TX  --> RX of Arduino 
+
+3. Relay to Appliance/Device/LED
+
+	NO1/NC1*  --> Positive Terminal of Power Supply
+	COM1     --> Positive Terminal of Device 
+
+	and Negative Terminal of Device connects to Negative Terminal of Power Supply
+*Do not use N01 and NC1 simultaneously. Use one at a time.
+Similarly connect the 2nd Device to NO2/NC2,COM2 and Power Supply.
